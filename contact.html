@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)contact.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title>PhoenixMobi</title>
+		<link rel="stylesheet" href="./contact_files/index.response.css">
+		<link rel="stylesheet" href="./contact_files/swiper-bundle.min.css">
+		<link rel="stylesheet" href="./contact_files/animate.min.css">
+	<link rel="Shortcut Icon" href="./PhoenixMobi_files/favicon.ico" type="image/x-icon" />
+
+</head>
+	<body>
+		<div class="page">
+			<div class="header">
+				<div class="logo"><a href="index.html"><img src="./contact_files/logo.png" alt=""></a></div>
+				<div class="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="platform.html">CTV Platform</a></li>
+					<li><a href="partners.html">CTV partners</a></li>
+					<li><a href="clients.html">CTV Clients</a></li>
+					<li><a href="advantages.html">CTV Advantages</a></li>
+					<li><a href="new.html">CTV News</a></li>
+				</div>
+				<div class="contact"><a href="contact.html">Contact Us</a></div>
+			</div>
+			
+			<div class="p15 contact">
+				<div class="bt wow animate__animated animate__fadeIn animate__animated" style="visibility: visible; animation-name: fadeIn;">
+					<h1>Get in touch today!</h1>
+					<p>According to PhoenixMobi, CTV ad spending in the US will more than double to over $18 billion by 2024. With nearly 80% of LKQD’s video platform<br>
+					business in 2020 coming from CTV and OTT advertising spend, PhoenixMobi is making a clear push towards these new and expanding markets as<br>
+					it builds a larger and stronger global technology stack.</p>
+				</div>
+				<div class="myInfo">
+					<div class="item wow animate__animated animate__fadeInLeft animate__animated" style="visibility: visible; animation-name: fadeInLeft;">
+						<img src="./contact_files/email.png" alt="">
+						<div class="title">Mail Us</div>
+						<p>nowitzki.dk@PhoenixMobi.com</p>
+					</div>
+					<div class="item wow animate__animated animate__fadeInRight animate__animated" style="visibility: visible; animation-name: fadeInRight;">
+						<img src="./contact_files/address.png" alt="">
+						<div class="title">Location</div>
+						<p> 987 serangoon road<br>singapore (328147)</p>
+					</div>
+				</div>
+				<div class="content wow animate__animated animate__fadeIn animate__animated" style="visibility: visible; animation-name: fadeIn;">
+					<li>
+						<label >First Name <span>*</span></label>
+						<input id="firstName" type="text" placeholder="First name">
+					</li>
+					<li>
+						<label >Last Name <span>*</span></label>
+						<input id="lastName" type="text" placeholder="Last Name">
+					</li>
+					<li>
+						<label >Company name <span>*</span></label>
+						<input id="companyName" type="text" placeholder="your company name here">
+					</li>
+					<li>
+						<label >Work Email <span>*</span></label>
+						<input id="email" type="text" placeholder="example@yourmail.com">
+					</li>
+					<li>
+						<label >Message</label>
+						<textarea id="message" name="" cols="30" rows="10" placeholder="Hello there,I would like to talk about how to..."></textarea>
+					</li>
+					<div class="footer">
+						<div class="btn" id="submit">SUBMIT</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="footer-nav">
+				<a href="index.html"><img src="./contact_files/logo.png" alt=""></a>
+				<div class="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="partners.html">CTV partner</a></li>
+					<li><a href="platform.html">CTV Platform</a></li>
+					<li><a href="clients.html">CTV Clients</a></li>
+					<li><a href="advantages.html">CTV Advantages</a></li>
+					<li><a href="new.html">CTV News</a></li>
+				</div>
+			</div>
+			<div class="footer">
+				©  COPYRIGHT <script>document.write(new Date().getFullYear())</script>PhoenixMobi, ALL RIGHTS RESERVED
+			</div>
+		</div>
+		<script src="./contact_files/jquery-1.11.3.min.js"></script>
+		<script src="./contact_files/swiper-bundle.min.js"></script>
+		<script src="./contact_files/wow.js"></script>
+		<script src="./contact_files/count.js"></script>
+		<script>
+			wow = new WOW({
+				animateClass: 'animate__animated',
+				offset:       100,
+				});
+			wow.init();
+			  
+		    $('.btn').hover(function(){
+				$(this).toggleClass('animate__animated animate__pulse')
+			})
+			var mySwiper = new Swiper ('.partners-p2 .swiper', {
+			    loop: true,
+				autoplay:true,
+			    navigation: {
+			      nextEl: '.swiper-button-next',
+			      prevEl: '.swiper-button-prev',
+			    }
+			  })
+				$("#submit").click(function() {
+					let firstName = $("#firstName").val()
+					let lastName = $("#lastName").val()
+					let	companyName = $("#companyName").val()
+					let email = $("#email").val()
+					let content = $("#message").val()
+					if(firstName && lastName && companyName && email) {
+						alert('We have received your submission, please be patient and we will process it as soon as possible.')
+					} else {
+						alert('Please fill in the correct contact information or content, we will seriously deal with your message!')
+					}
+				})
+		</script>
+	
+<deepl-input-controller><template shadowrootmode="open"><link rel="stylesheet" href="chrome-extension://cofdbpoegempjloogbagkncekinflcnj/build/content.css"><div dir="ltr" style="visibility: initial !important;"><div class="dl-input-translation-container svelte-95aucy"><div></div></div></div></template></deepl-input-controller></body></html>
